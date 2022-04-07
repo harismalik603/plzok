@@ -20,4 +20,4 @@ jobs:
       - name: install surge
         run: npm install -g surge
       - name: surge
-        run: surge ./ harishorfoliobasic.surge.sh --token ${{ secrets.DEPLY_PORTFOLI }}
+        run: surge ./ harisporfoliobasic.surge.sh --token ${{ secrets.DEPLY_PORTFOLI }}
