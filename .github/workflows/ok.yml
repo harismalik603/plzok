@@ -1,0 +1,23 @@
+name: Bootcamp 2020 urdu with actions link
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+    
+      - name: Build the site in the jekyll/builder container
+        uses: actions/setup-node@v2-beta
+        with:
+          node-version: 12
+      
+      - name: install surge
+        run: npm install -g surge
+      - name: surge
+        run: surge ./ bootcamplinks2020.surge.sh --token ${{ secrets.DEPLOY_TOKEN }}

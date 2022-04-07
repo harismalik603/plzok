@@ -1,0 +1,132 @@
+    body {
+    background-color: rgb(0, 0, 0);
+}
+
+.head1 {
+    border: rgb(0, 0, 0) 2px solid;
+    background-image: url('1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+}
+
+#head-txt {
+    font-family: cursive;
+    text-align: center;
+    padding-top: 1%;
+    font-size: xx-large;
+    color: beige;
+}
+
+.mm {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;cursor: pointer;
+}
+
+.logos {
+    height: 40px;
+    width: 40px;
+    margin-left: 20px;
+}
+
+.mm .nn {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 50%;
+    margin-left: -60px;
+    
+}
+
+.mm:hover .nn {
+    visibility: visible;cursor: pointer;
+}
+
+.intbody {
+    color: white;
+    font-size: 130%;
+    font-style: italic;
+}
+
+#aim {
+    float: right;
+    height: auto;
+    margin-top: 30px;
+    width: 100%;
+}
+
+#dgr {
+    float: left;
+    height: auto;
+    margin-top: 30px;
+    width: 100%;
+}
+
+.b {
+    table-layout: fixed;
+    width: auto;
+    border-spacing: 20px;
+}
+
+.educlass {
+    padding-right: 50px;
+    font-size: x-large;
+    color: rgb(14, 252, 240);
+}
+
+.cv {
+    margin-top: 1%;
+}
+
+#btn {
+    color: whitesmoke;
+    background-color: transparent;
+    padding: 1%;
+    margin-top: 3%;
+    text-align: center;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 50%;
+}
+
+.contact {
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 50px;
+}
+
+#end {
+    color: rgb(110, 132, 255);
+    font-size: large;
+}
+
+.grp .menu {
+    background-color: transparent;
+    color: white;
+    height: 24px;
+    width: max-content;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 5px;
+    height: 30px;
+    width: 15%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
