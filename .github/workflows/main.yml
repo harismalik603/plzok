@@ -2,7 +2,7 @@ name: Bootcamp 2020 urdu with actions link
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
 
 jobs:
   build:
